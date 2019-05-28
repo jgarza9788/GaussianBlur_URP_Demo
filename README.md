@@ -1,0 +1,65 @@
+ GaussianBlur+
+-------------------------------------
+[Asset Store Link](http://u3d.as/1wQD)  
+[GaussianBlur](http://u3d.as/yJk)  
+© 2017 Justin Garza
+
+PLEASE LEAVE A REVIEW OR RATE THE PACKAGE IF YOU FIND IT USEFUL!
+Enjoy! :)
+
+
+## Table of Contents
+
+<!-- TOC -->
+
+- [GaussianBlur+](#gaussianblur)
+- [Table of Contents](#table-of-contents)
+- [Contact](#contact)
+- [Description Features](#description-features)
+    - [old.zip](#oldzip)
+- [Terms of Use](#terms-of-use)
+
+<!-- /TOC -->
+
+## Contact
+
+Questions, suggestions, help needed?  
+Contact me at:  
+Email: jgarza9788@gmail.com  
+Cell: 1-818-251-0647  
+Contact Info: [justingarza.info/contact](http://justingarza.info/contact/)
+
+## Description Features
+
+1. [GaussianBlur_SRP](https://github.com/jgarza9788/GaussianBlur_LWRP_Demo/blob/master/GaussianBlur_SRP.md)
+   * **(only in GaussianBlur+)**
+   * Alpha Mask
+   * Mobile Friendly 
+   * Adjust Blur, Lightness, Saturation, and TintColor 
+   * Compatible with Unity's Scriptable Rendering Pipelines 
+2. [GaussianBlur_SG](https://github.com/jgarza9788/GaussianBlur_LWRP_Demo/blob/master/GaussianBlur_SG.md)
+   * **(only in GaussianBlur+)**
+   * Adjust Blur, Lightness, Saturation, and TintColor 
+   * Made using Unity's ShaderGraph
+   * Compatible with Unity's Scriptable Rendering Pipelines 
+
+
+### old.zip
+> Old versions of the code are stored in old.zip tp prevent errors
+
+1. [GaussianBlur_Live](https://github.com/jgarza9788/GaussianBlur_LWRP_Demo/blob/master/GaussianBlur_Live.md)
+2. [GaussianBlur_Mobile](https://github.com/jgarza9788/GaussianBlur_LWRP_Demo/blob/master/GaussianBlur_Mobile.md)
+3. [GaussianBlur_CamTransition](https://github.com/jgarza9788/GaussianBlur_LWRP_Demo/blob/master/GaussianBlur_CamTransition.md)
+4. [GaussianBlur_PPM](https://github.com/jgarza9788/GaussianBlur_LWRP_Demo/blob/master/GaussianBlur_PPM.md
+
+
+
+## Terms of Use
+
+You are free to add this asset to any game you’d like
+However:  
+please put my name in the credits, or in the special thanks section.  
+please do not re-distribute.  
+
+
+
