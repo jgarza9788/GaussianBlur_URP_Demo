@@ -9,13 +9,13 @@ Enjoy! :)
 
 ## Table of Contents
 
-- [GaussianBlur_SRP (only in GaussianBlur+)](#gaussianblursrp-only-in-gaussianblur)
-- [Table of Contents](#table-of-contents)
-- [Description Features](#description-features)
-- [How To Use GaussianBlur_SRP](#how-to-use-gaussianblursrp)
-    - [Intro](#intro)
-        - [LWRP Asset (aka Pipeline Asset)](#lwrp-asset-aka-pipeline-asset)
-        - [GaussianBlur_SRP.shader](#gaussianblursrpshader)
+- [GaussianBlur_SRP (only in GaussianBlur+)](#GaussianBlurSRP-only-in-GaussianBlur)
+- [Table of Contents](#Table-of-Contents)
+- [Description Features](#Description-Features)
+- [How To Use GaussianBlur_SRP](#How-To-Use-GaussianBlurSRP)
+    - [Intro](#Intro)
+        - [LWRP Asset (aka Pipeline Asset)](#LWRP-Asset-aka-Pipeline-Asset)
+        - [GaussianBlur_SRP.shader](#GaussianBlurSRPshader)
 
 ## Description Features
 
@@ -65,6 +65,9 @@ This Shader has 4 Properties
   * How much Color or Add/Subtract
 * _TintColor
   * Color to Tint it by
+* _AlphaIsBlurAmount
+    * this uses the alpha of the image to control the blur amount.
+    * thus allowing you to fade the blur
 
 ![Video Demo](https://youtu.be/0SPwN2RAnkE)
 
