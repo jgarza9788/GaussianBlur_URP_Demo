@@ -10,19 +10,21 @@ Enjoy! :)
 ## Table of Contents
 
 <!--TOC-->
-- [GaussianBlur_SG (only in GaussianBlur+)](#GaussianBlurSG-only-in-GaussianBlur)
-- [Table of Contents](#Table-of-Contents)
-- [Description Features](#Description-Features)
-- [Requirements](#Requirements)
-- [How To Use GaussianBlur_SG](#How-To-Use-GaussianBlurSG)
-    - [Set Up](#Set-Up)
-        - [Use Package Manager](#Use-Package-Manager)
-        - [place LWRP_forGaussianBlur in Project Settings](#place-LWRPforGaussianBlur-in-Project-Settings)
-        - [Add BlurMaterial_SG to objects](#Add-BlurMaterialSG-to-objects)
-        - [Tag Objects with "GaussianBlur"](#Tag-Objects-with-%22GaussianBlur%22)
-        - [Video](#Video)
-    - [Misc Info](#Misc-Info)
-- [Demos](#Demos)
+* [GaussianBlur_SG (only in GaussianBlur+)](#gaussianblur_sg-(only-in-gaussianblur+))
+	* [Table of Contents](#table-of-contents)
+	* [Description Features](#description-features)
+	* [Requirements](#requirements)
+	* [How To Use GaussianBlur_SG](#how-to-use-gaussianblur_sg)
+		* [Set Up](#set-up)
+			* [Use Package Manager](#use-package-manager)
+			* [place LWRP_forGaussianBlur in Project Settings](#place-lwrp_forgaussianblur-in-project-settings)
+			* [Add BlurMaterial_SG to objects](#add-blurmaterial_sg-to-objects)
+			* [Tag Objects with "GaussianBlur"](#tag-objects-with-"gaussianblur")
+			* [Video](#video)
+		* [Misc Info](#misc-info)
+	* [Demos](#demos)
+		* [Demo_SG.unity](#demo_sg.unity)
+		* [Demo_SG_RenderTexture.unity](#demo_sg_rendertexture.unity)
 
 <!--TOC-->
 
@@ -83,8 +85,12 @@ Therefore, if you decide to merge this asset with other custom renderers we'll n
   
 ## Demos
 
-1. Demo_SG.unity
-    * displays the material while using the CameraOpaqueTexture
-2. Demo_SG_RenderTexture.unity
-   * displays the material while using a RenderTexture from a camera
+### Demo_SG.unity
+displays the material while using the CameraOpaqueTexture from the LWRP
 
+### Demo_SG_RenderTexture.unity
+displays the material while using a RenderTexture from a camera
+
+![Imgur](https://i.imgur.com/Zunyfgk.png)
+
+A camera has a target texture set to a RenderedTexture. That RenderedTexture is then used in a Shader Graph Shader to produce the blur effect on the screen.
