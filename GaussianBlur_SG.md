@@ -10,17 +10,19 @@ Enjoy! :)
 ## Table of Contents
 
 <!--TOC-->
-* [GaussianBlur_SG (only in GaussianBlur+)](#gaussianblur_sg-(only-in-gaussianblur+))
-	* [Table of Contents](#table-of-contents)
-	* [Description Features](#description-features)
-	* [Requirements](#requirements)
-	* [How To Use GaussianBlur_SG](#how-to-use-gaussianblur_sg)
-		* [Set Up](#set-up)
-			* [Use Package Manager](#use-package-manager)
-			* [place LWRP_forGaussianBlur in Project Settings](#place-lwrp_forgaussianblur-in-project-settings)
-			* [Tag Objects with "GaussianBlur" and they will render using this custom shader.](#tag-objects-with-"gaussianblur"-and-they-will-render-using-this-custom-shader.)
-		* [Misc Info](#misc-info)
-	* [Demos](#demos)
+- [GaussianBlur_SG (only in GaussianBlur+)](#GaussianBlurSG-only-in-GaussianBlur)
+- [Table of Contents](#Table-of-Contents)
+- [Description Features](#Description-Features)
+- [Requirements](#Requirements)
+- [How To Use GaussianBlur_SG](#How-To-Use-GaussianBlurSG)
+    - [Set Up](#Set-Up)
+        - [Use Package Manager](#Use-Package-Manager)
+        - [place LWRP_forGaussianBlur in Project Settings](#place-LWRPforGaussianBlur-in-Project-Settings)
+        - [Add BlurMaterial_SG to objects](#Add-BlurMaterialSG-to-objects)
+        - [Tag Objects with "GaussianBlur"](#Tag-Objects-with-%22GaussianBlur%22)
+        - [Video](#Video)
+    - [Misc Info](#Misc-Info)
+- [Demos](#Demos)
 
 <!--TOC-->
 
@@ -65,14 +67,20 @@ Therefore, if you decide to merge this asset with other custom renderers we'll n
 
 ![Imgur](https://i.imgur.com/dRybf88m.png)
 
-#### Tag Objects with "GaussianBlur" and they will render using this custom shader.
+#### Add BlurMaterial_SG to objects
 
+#### Tag Objects with "GaussianBlur"
+
+#### Video
+[youtube video](https://youtu.be/_d0XQOhKUwE)
 
 ### Misc Info
 
 1. BlurShader_CN.shader 
     * this uses a custom node in shader graph.
-
+2. BlurShaderAltTexture_CN.shader 
+    * this will render a blur using a renderedTexture (updated by a camera)
+  
 ## Demos
 
 1. Demo_SG.unity
