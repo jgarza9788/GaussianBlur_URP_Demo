@@ -13,6 +13,7 @@ Enjoy! :)
 * [GaussianBlur_SG (only in GaussianBlur+)](#gaussianblur_sg-(only-in-gaussianblur+))
 	* [Table of Contents](#table-of-contents)
 	* [Description Features](#description-features)
+	* [Requirements](#requirements)
 	* [How To Use GaussianBlur_SG](#how-to-use-gaussianblur_sg)
 		* [Set Up](#set-up)
 			* [Use Package Manager](#use-package-manager)
@@ -30,6 +31,17 @@ A GaussianBlur effect for UI Components.
 * Adjust Blur, Lightness, Saturation, and TintColor 
 * Made using Unity's ShaderGraph
 * Compatible with Unity's Scriptable Rendering Pipelines 
+
+
+## Requirements
+
+Below are the list of packages i'm using.  
+Using the exact version is recommended, but might not be required.
+
+* Unity 2019.1.4
+* Core RP Library 5.13.0
+* Lightweight RP 5.13.0
+* Shader Graph 5.13.0
 
 
 ## How To Use GaussianBlur_SG
