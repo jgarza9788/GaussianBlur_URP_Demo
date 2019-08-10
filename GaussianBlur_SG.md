@@ -10,21 +10,21 @@ Enjoy! :)
 ## Table of Contents
 
 <!--TOC-->
-* [GaussianBlur_SG (only in GaussianBlur+)](#gaussianblur_sg-(only-in-gaussianblur+))
-	* [Table of Contents](#table-of-contents)
-	* [Description Features](#description-features)
-	* [Requirements](#requirements)
-	* [How To Use GaussianBlur_SG](#how-to-use-gaussianblur_sg)
-		* [Set Up](#set-up)
-			* [Use Package Manager](#use-package-manager)
-			* [place LWRP_forGaussianBlur in Project Settings](#place-lwrp_forgaussianblur-in-project-settings)
-			* [Add BlurMaterial_SG to objects](#add-blurmaterial_sg-to-objects)
-			* [Tag Objects with "GaussianBlur"](#tag-objects-with-"gaussianblur")
-			* [Video](#video)
-		* [Misc Info](#misc-info)
-	* [Demos](#demos)
-		* [Demo_SG.unity](#demo_sg.unity)
-		* [Demo_SG_RenderTexture.unity](#demo_sg_rendertexture.unity)
+- [GaussianBlur_SG (only in GaussianBlur+)](#gaussianblursg-only-in-gaussianblur)
+- [Table of Contents](#table-of-contents)
+- [Description Features](#description-features)
+- [Requirements](#requirements)
+- [How To Use GaussianBlur_SG](#how-to-use-gaussianblursg)
+    - [Set Up](#set-up)
+        - [Use Package Manager](#use-package-manager)
+        - [place LWRP_forGaussianBlur in Project Settings](#place-lwrpforgaussianblur-in-project-settings)
+        - [Add BlurMaterial_SG to objects](#add-blurmaterialsg-to-objects)
+        - [Tag Objects with "GaussianBlur"](#tag-objects-with-%22gaussianblur%22)
+        - [Video](#video)
+    - [Misc Info](#misc-info)
+- [Demos](#demos)
+    - [Demo_SG.unity](#demosgunity)
+    - [Demo_SG_RenderTexture.unity](#demosgrendertextureunity)
 
 <!--TOC-->
 
@@ -91,6 +91,6 @@ displays the material while using the CameraOpaqueTexture from the LWRP
 ### Demo_SG_RenderTexture.unity
 displays the material while using a RenderTexture from a camera
 
-![Imgur](https://i.imgur.com/Zunyfgk.png)
+![Imgur](https://i.imgur.com/4WDOwql.png)
 
 A camera has a target texture set to a RenderedTexture. That RenderedTexture is then used in a Shader Graph Shader to produce the blur effect on the screen.
