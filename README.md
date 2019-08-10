@@ -50,7 +50,7 @@ Contact Info: [justingarza.info/contact](http://justingarza.info/contact/)
 1. [GaussianBlur_Live](https://github.com/jgarza9788/GaussianBlur_LWRP_Demo/blob/master/GaussianBlur_Live.md)
 2. [GaussianBlur_Mobile](https://github.com/jgarza9788/GaussianBlur_LWRP_Demo/blob/master/GaussianBlur_Mobile.md)
 3. [GaussianBlur_CamTransition](https://github.com/jgarza9788/GaussianBlur_LWRP_Demo/blob/master/GaussianBlur_CamTransition.md)
-4. [GaussianBlur_PPM](https://github.com/jgarza9788/GaussianBlur_LWRP_Demo/blob/master/GaussianBlur_PPM.md
+4. [GaussianBlur_PPM](https://github.com/jgarza9788/GaussianBlur_LWRP_Demo/blob/master/GaussianBlur_PPM.md)
 
 
 
