@@ -37,15 +37,17 @@ Contact Info: [justingarza.info/contact](http://justingarza.info/contact/)
    * Mobile Friendly 
    * Adjust Blur, Lightness, Saturation, and TintColor 
    * Compatible with Unity's Scriptable Rendering Pipelines 
+   * Best used for **UI rendering**
 2. [GaussianBlur_SG](https://github.com/jgarza9788/GaussianBlur_LWRP_Demo/blob/master/GaussianBlur_SG.md)
    * **(only in GaussianBlur+)**
    * Adjust Blur, Lightness, Saturation, and TintColor 
    * Made using Unity's ShaderGraph
    * Compatible with Unity's Scriptable Rendering Pipelines 
+   * Best used to render **GameObjects (meshes)**
 
 
 ### old.zip
-> Old versions of the code are stored in old.zip tp prevent errors
+> Old versions of the code are stored in old.zip to prevent errors
 
 1. [GaussianBlur_Live](https://github.com/jgarza9788/GaussianBlur_LWRP_Demo/blob/master/GaussianBlur_Live.md)
 2. [GaussianBlur_Mobile](https://github.com/jgarza9788/GaussianBlur_LWRP_Demo/blob/master/GaussianBlur_Mobile.md)

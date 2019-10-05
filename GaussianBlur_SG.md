@@ -10,31 +10,32 @@ Enjoy! :)
 ## Table of Contents
 
 <!--TOC-->
-- [GaussianBlur_SG (only in GaussianBlur+)](#gaussianblursg-only-in-gaussianblur)
-- [Table of Contents](#table-of-contents)
-- [Description Features](#description-features)
-- [Requirements](#requirements)
-- [How To Use GaussianBlur_SG](#how-to-use-gaussianblursg)
-    - [Set Up](#set-up)
-        - [Use Package Manager](#use-package-manager)
-        - [place LWRP_forGaussianBlur in Project Settings](#place-lwrpforgaussianblur-in-project-settings)
-        - [Add BlurMaterial_SG to objects](#add-blurmaterialsg-to-objects)
-        - [Tag Objects with "GaussianBlur"](#tag-objects-with-%22gaussianblur%22)
-        - [Video](#video)
-    - [Misc Info](#misc-info)
-- [Demos](#demos)
-    - [Demo_SG.unity](#demosgunity)
-    - [Demo_SG_RenderTexture.unity](#demosgrendertextureunity)
+* [GaussianBlur_SG (only in GaussianBlur+)](#gaussianblur_sg-(only-in-gaussianblur+))
+	* [Table of Contents](#table-of-contents)
+	* [Description Features](#description-features)
+	* [Requirements](#requirements)
+	* [How To Use GaussianBlur_SG](#how-to-use-gaussianblur_sg)
+		* [Set Up](#set-up)
+			* [Use Package Manager](#use-package-manager)
+			* [place LWRP_forGaussianBlur in Project Settings](#place-lwrp_forgaussianblur-in-project-settings)
+			* [Add BlurMaterial_SG to objects](#add-blurmaterial_sg-to-objects)
+			* [Change the Object's Layer to "GaussianBlur"](#change-the-object's-layer-to-"gaussianblur")
+			* [Video](#video)
+		* [Misc Info](#misc-info)
+	* [Demos](#demos)
+		* [Demo_SG.unity](#demo_sg.unity)
+		* [Demo_SG_RenderTexture.unity](#demo_sg_rendertexture.unity)
 
 <!--TOC-->
 
 ## Description Features
 
-A GaussianBlur effect for UI Components.
+A GaussianBlur effect for **GameObjects (meshes)**
 
 * Adjust Blur, Lightness, Saturation, and TintColor 
 * Made using Unity's ShaderGraph
 * Compatible with Unity's Scriptable Rendering Pipelines 
+  
 
 
 ## Requirements
@@ -71,17 +72,16 @@ Therefore, if you decide to merge this asset with other custom renderers we'll n
 
 #### Add BlurMaterial_SG to objects
 
-#### Tag Objects with "GaussianBlur"
+#### Change the Object's Layer to "GaussianBlur"
 
 #### Video
 [youtube video](https://youtu.be/_d0XQOhKUwE)
 
 ### Misc Info
 
-1. BlurShader_CN.shader 
-    * this uses a custom node in shader graph.
-2. BlurShaderAltTexture_CN.shader 
-    * this will render a blur using a renderedTexture (updated by a camera)
+In LWRP the camera automatically creates a texture of the scene. Whoever this might not work if you are using transparent shaders in your scene. The solution would be to use a render texture, as an alternative texture in the GaussianBlur_SG_RT.shader.
+
+Please see the Demo_SG_RenderTexture.unity to see it in action.
   
 ## Demos
 

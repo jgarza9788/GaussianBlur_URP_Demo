@@ -9,13 +9,18 @@ Enjoy! :)
 
 ## Table of Contents
 
-- [GaussianBlur_SRP (only in GaussianBlur+)](#GaussianBlurSRP-only-in-GaussianBlur)
-- [Table of Contents](#Table-of-Contents)
-- [Description Features](#Description-Features)
-- [How To Use GaussianBlur_SRP](#How-To-Use-GaussianBlurSRP)
-    - [Intro](#Intro)
-        - [LWRP Asset (aka Pipeline Asset)](#LWRP-Asset-aka-Pipeline-Asset)
-        - [GaussianBlur_SRP.shader](#GaussianBlurSRPshader)
+<!--TOC-->
+* [GaussianBlur_SRP (only in GaussianBlur+)](#gaussianblur_srp-(only-in-gaussianblur+))
+	* [Table of Contents](#table-of-contents)
+	* [Description Features](#description-features)
+	* [two shaders](#two-shaders)
+		* [GaussianBlur_SRP.shader](#gaussianblur_srp.shader)
+			* [LWRP Asset (aka Pipeline Asset)](#lwrp-asset-(aka-pipeline-asset))
+		* [GaussianBlur_SRP_RT](#gaussianblur_srp_rt)
+			* [Render Texture](#render-texture)
+		* [VIDEO](#video)
+
+<!--TOC-->
 
 ## Description Features
 
@@ -28,17 +33,13 @@ A GaussianBlur effect for UI Components.
 * Compatible with Unity's Scriptable Rendering Pipelines
 
 
-## How To Use GaussianBlur_SRP
+## two shaders 
 
-### Intro
+there are two versions of the shader.
 
-**GaussianBlur_SRP.shader** will color UI components based on a blurred image of whatever is behind it.
-
-There are Two things that allow this Shader to work.
-1. A texture of what is rendered by the camera, this can be obtained using the LWRP Asset.
-2. The Shader that will Blur the texture and set the color of the UI Component.
-
-
+### GaussianBlur_SRP.shader
+This version will used the CameraOpaqueTexture from the LWRP settings to render the blur 
+ 
 #### LWRP Asset (aka Pipeline Asset)
 
 - [x] Opaque Texture  
@@ -48,29 +49,20 @@ this needs to be checked so we can access the camera's texture.
 If you're planning to publish to mobile, consider downsampling.  
 i.e. switch this to: 2x Bilinear, 4x Box, or 4x Bilinear
 
-![Imgur](https://i.imgur.com/WLDUX1y.png)
+![Imgur](https://i.imgur.com/WLDUX1ym.png)
 
 
-#### GaussianBlur_SRP.shader
-Use this shader in any material you attach to a UI Object.  
-_see DemoBlur.mat as an example_
+### GaussianBlur_SRP_RT
+This version will use a render texture from a second camera to render the blur.
 
-This Shader has 4 Properties
+#### Render Texture
+Create a second camera and set it's target texture to the render texture.  
+Then make sure the material gets this blur to use.
 
-* _Iterations
-  * Blur Amount
-* _Lightness
-  * Darkness/Lightness
-* _Saturation
-  * How much Color or Add/Subtract
-* _TintColor
-  * Color to Tint it by
-* _AlphaIsBlurAmount
-    * this uses the alpha of the image to control the blur amount.
-    * thus allowing you to fade the blur
-
-![Video Demo](https://youtu.be/0SPwN2RAnkE)
+![Imgur](https://i.imgur.com/4WDOwql.png)
 
 
+### VIDEO
+[Video Demo](https://youtu.be/0SPwN2RAnkE)
 
 
