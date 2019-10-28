@@ -1,4 +1,4 @@
- GaussianBlur+
+ GaussianBlur_LWRP
 -------------------------------------
 [Asset Store Link](http://u3d.as/1wQD)  
 [GaussianBlur](http://u3d.as/yJk)  
@@ -12,7 +12,7 @@ Enjoy! :)
 
 <!-- TOC -->
 
-- [GaussianBlur+](#gaussianblur)
+- [GaussianBlur_LWRP](#gaussianblurlwrp)
 - [Table of Contents](#table-of-contents)
 - [Contact](#contact)
 - [Description Features](#description-features)
@@ -32,14 +32,14 @@ Contact Info: [justingarza.info/contact](http://justingarza.info/contact/)
 ## Description Features
 
 1. [GaussianBlur_SRP](https://github.com/jgarza9788/GaussianBlur_LWRP_Demo/blob/master/GaussianBlur_SRP.md)
-   * **(only in GaussianBlur+)**
+   * **(only in GaussianBlur_LWRP)**
    * Alpha Mask
    * Mobile Friendly 
    * Adjust Blur, Lightness, Saturation, and TintColor 
    * Compatible with Unity's Scriptable Rendering Pipelines 
    * Best used for **UI rendering**
 2. [GaussianBlur_SG](https://github.com/jgarza9788/GaussianBlur_LWRP_Demo/blob/master/GaussianBlur_SG.md)
-   * **(only in GaussianBlur+)**
+   * **(only in GaussianBlur_LWRP)**
    * Adjust Blur, Lightness, Saturation, and TintColor 
    * Made using Unity's ShaderGraph
    * Compatible with Unity's Scriptable Rendering Pipelines 
@@ -48,6 +48,7 @@ Contact Info: [justingarza.info/contact](http://justingarza.info/contact/)
 
 ### old.zip
 > Old versions of the code are stored in old.zip to prevent errors
+> Old files will be removed before 2021
 
 1. [GaussianBlur_Live](https://github.com/jgarza9788/GaussianBlur_LWRP_Demo/blob/master/GaussianBlur_Live.md)
 2. [GaussianBlur_Mobile](https://github.com/jgarza9788/GaussianBlur_LWRP_Demo/blob/master/GaussianBlur_Mobile.md)
