@@ -10,21 +10,26 @@ Enjoy! :)
 ## Table of Contents
 
 <!--TOC-->
-* [GaussianBlur_SG (only in GaussianBlur+)](#gaussianblur_sg-(only-in-gaussianblur+))
-	* [Table of Contents](#table-of-contents)
-	* [Description Features](#description-features)
-	* [Requirements](#requirements)
-	* [How To Use GaussianBlur_SG](#how-to-use-gaussianblur_sg)
-		* [Set Up](#set-up)
-			* [Use Package Manager](#use-package-manager)
-			* [place LWRP_forGaussianBlur in Project Settings](#place-lwrp_forgaussianblur-in-project-settings)
-			* [Add BlurMaterial_SG to objects](#add-blurmaterial_sg-to-objects)
-			* [Change the Object's Layer to "GaussianBlur"](#change-the-object's-layer-to-"gaussianblur")
-			* [Video](#video)
-		* [Misc Info](#misc-info)
-	* [Demos](#demos)
-		* [Demo_SG.unity](#demo_sg.unity)
-		* [Demo_SG_RenderTexture.unity](#demo_sg_rendertexture.unity)
+- [GaussianBlur_SG (only in GaussianBlur+)](#gaussianblursg-only-in-gaussianblur)
+- [Table of Contents](#table-of-contents)
+- [Description Features](#description-features)
+- [Requirements](#requirements)
+- [How To Use GaussianBlur_SG](#how-to-use-gaussianblursg)
+    - [Set Up](#set-up)
+        - [Use Package Manager](#use-package-manager)
+        - [place LWRP_forGaussianBlur in Project Settings](#place-lwrpforgaussianblur-in-project-settings)
+        - [Add BlurMaterial_SG to objects](#add-blurmaterialsg-to-objects)
+        - [Change the Object's Layer to "GaussianBlur"](#change-the-objects-layer-to-%22gaussianblur%22)
+        - [Video](#video)
+    - [Misc Info](#misc-info)
+- [Demos](#demos)
+    - [Demo_SG.unity](#demosgunity)
+    - [Demo_SG_RenderTexture.unity](#demosgrendertextureunity)
+    - [Assets\GaussianBlur_LWRP\GaussianBlur_SG\Shader\](#assetsgaussianblurlwrpgaussianblursgshader)
+        - [GaussianBlur.hlsl](#gaussianblurhlsl)
+        - [GaussianBlur_SG.shadergraph](#gaussianblursgshadergraph)
+        - [GaussianBlur_SG_RT.shadergraph](#gaussianblursgrtshadergraph)
+        - [GaussianBlur_SG_RT_Sprite.shadergraph](#gaussianblursgrtspriteshadergraph)
 
 <!--TOC-->
 
@@ -94,3 +99,17 @@ displays the material while using a RenderTexture from a camera
 ![Imgur](https://i.imgur.com/4WDOwql.png)
 
 A camera has a target texture set to a RenderedTexture. That RenderedTexture is then used in a Shader Graph Shader to produce the blur effect on the screen.
+
+### Assets\GaussianBlur_LWRP\GaussianBlur_SG\Shader\
+
+#### GaussianBlur.hlsl
+this is some code that the shader graphs will use to blur an image.
+
+#### GaussianBlur_SG.shadergraph
+this shader will blur using the _CameraOpaqueTexture, this might not be compatible with sprites and other shaders.
+
+#### GaussianBlur_SG_RT.shadergraph
+this shader will blur using whatever texture is being passed into it, most people will pass in a render texture that's being updated by a camera.
+
+#### GaussianBlur_SG_RT_Sprite.shadergraph
+this shader is just like GaussianBlur_SG_RT.shadergraph, however this has been adjusted for sprites.
