@@ -25,7 +25,7 @@ Enjoy! :)
 - [Demos](#demos)
     - [Demo_SG.unity](#demosgunity)
     - [Demo_SG_RenderTexture.unity](#demosgrendertextureunity)
-    - [Assets\GaussianBlur_LWRP\GaussianBlur_SG\Shader\](#assetsgaussianblurlwrpgaussianblursgshader)
+    - [Assets\\GaussianBlur_LWRP\\GaussianBlur_SG\\Shader\\](#assetsgaussianblurlwrpgaussianblursgshader)
         - [GaussianBlur.hlsl](#gaussianblurhlsl)
         - [GaussianBlur_SG.shadergraph](#gaussianblursgshadergraph)
         - [GaussianBlur_SG_RT.shadergraph](#gaussianblursgrtshadergraph)
@@ -100,7 +100,7 @@ displays the material while using a RenderTexture from a camera
 
 A camera has a target texture set to a RenderedTexture. That RenderedTexture is then used in a Shader Graph Shader to produce the blur effect on the screen.
 
-### Assets\GaussianBlur_LWRP\GaussianBlur_SG\Shader\
+### Assets\\GaussianBlur_LWRP\\GaussianBlur_SG\\Shader\\
 
 #### GaussianBlur.hlsl
 this is some code that the shader graphs will use to blur an image.
