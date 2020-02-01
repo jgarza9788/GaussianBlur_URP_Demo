@@ -10,15 +10,15 @@ Enjoy! :)
 ## Table of Contents
 
 <!--TOC-->
-* [GaussianBlur_SRP (only in GaussianBlur+)](#gaussianblur_srp-(only-in-gaussianblur+))
-	* [Table of Contents](#table-of-contents)
-	* [Description Features](#description-features)
-	* [two shaders](#two-shaders)
-		* [GaussianBlur_SRP.shader](#gaussianblur_srp.shader)
-			* [LWRP Asset (aka Pipeline Asset)](#lwrp-asset-(aka-pipeline-asset))
-		* [GaussianBlur_SRP_RT](#gaussianblur_srp_rt)
-			* [Render Texture](#render-texture)
-		* [VIDEO](#video)
+- [GaussianBlur_SRP (only in GaussianBlur+)](#gaussianblursrp-only-in-gaussianblur)
+- [Table of Contents](#table-of-contents)
+- [Description Features](#description-features)
+- [two shaders](#two-shaders)
+    - [GaussianBlur_SRP.shader](#gaussianblursrpshader)
+        - [LWRP Asset (aka Pipeline Asset)](#lwrp-asset-aka-pipeline-asset)
+    - [GaussianBlur_SRP_RT](#gaussianblursrprt)
+        - [Render Texture](#render-texture)
+    - [VIDEO](#video)
 
 <!--TOC-->
 
@@ -49,7 +49,12 @@ this needs to be checked so we can access the camera's texture.
 If you're planning to publish to mobile, consider downsampling.  
 i.e. switch this to: 2x Bilinear, 4x Box, or 4x Bilinear
 
+
 ![Imgur](https://i.imgur.com/WLDUX1ym.png)
+
+and don't forget to assign this LWRP in the project settings
+![Imgur](https://i.imgur.com/to1F5fwm.png)
+
 
 
 ### GaussianBlur_SRP_RT
