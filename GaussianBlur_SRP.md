@@ -52,7 +52,7 @@ i.e. switch this to: 2x Bilinear, 4x Box, or 4x Bilinear
 
 ![Imgur](https://i.imgur.com/WLDUX1ym.png)
 
-and don't forget to assign this LWRP in the project settings
+and don't forget to assign this LWRP in the project settings  
 ![Imgur](https://i.imgur.com/to1F5fwm.png)
 
 
