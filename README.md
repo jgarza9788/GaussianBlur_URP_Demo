@@ -111,7 +111,7 @@ it's in ***\GaussianBlur_URP\Assets\URP**
 
 
 ## Videos
-[GaussianBlur_UI](https://youtu.be/v11TBFgPKD)  
+[GaussianBlur_UI](https://youtu.be/v11TBFgPKDE)  
 [GaussianBlur_WS](https://youtu.be/lwK_AaKw4kc)    
 [GaussianBlur_UIEffect](https://youtu.be/2delOzh9Wt8)
 
