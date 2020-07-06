@@ -14,16 +14,19 @@ Enjoy! :)
 
 <!-- TOC -->
 
-- [GaussianBlur_URP](#gaussianblururp)
+- [GaussianBlur_URP](#gaussianblur_urp)
 - [Table of Contents](#table-of-contents)
 - [Contact](#contact)
 - [Description Features](#description-features)
 - [Set Up](#set-up)
-- [GaussianBlur_IU](#gaussianbluriu)
-- [GaussianBlur_IUEffect](#gaussianbluriueffect)
-- [GaussianBlur_WS](#gaussianblurws)
+- [GaussianBlur_IU](#gaussianblur_iu)
+- [GaussianBlur_IUEffect](#gaussianblur_iueffect)
+- [GaussianBlur_WS](#gaussianblur_ws)
 - [Videos](#videos)
-- [Terms of Use / License](#terms-of-use--license)
+- [Terms of Use](#terms-of-use)
+- [FAQs](#faqs)
+    - [it's just GREY!](#its-just-grey)
+    - [incorrect importing](#incorrect-importing)
 
 <!-- /TOC -->
 
@@ -115,22 +118,23 @@ it's in ***\GaussianBlur_URP\Assets\URP**
 [GaussianBlur_WS](https://youtu.be/lwK_AaKw4kc)    
 [GaussianBlur_UIEffect](https://youtu.be/2delOzh9Wt8)
 
-## Terms of Use / License 
+## Terms of Use
 
-> Copyright (c) 2018-2020 Justin Garza
-> 
-> You have the right to use, and modify this code for use in a personal or commercial project, however you do not have the right to re-distribute this source code.
-> 
-> The above copyright notice and this permission notice shall be included in all
-> copies or substantial portions of the Software.
-> 
-> THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-> IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-> FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-> AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-> LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-> OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-> SOFTWARE.
+Required:
+please follow [Unity's EULA](https://unity3d.com/legal/as_terms) 
+
+Suggestion/Optional:
+please put my name in the credits, or in the special thanks section. :)  
+
+## FAQs
+
+### it's just GREY!
+Please delete the **Settings** folder from the default URP project.  
+For some reason this causes an error in the URP_Asset i have included in the project
+
+### incorrect importing 
+
+I have receieved emails about the materials folder not being imported within the assets folder.
 
 
-
+![Imgur](https://i.imgur.com/a7dzmU9.png)
