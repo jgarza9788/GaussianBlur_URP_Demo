@@ -87,7 +87,7 @@ a color tint to be applied to the UI.
 Saturation:  
 adjusts the saturation (color) of the UI.
 
-![Imgur](https://i.imgur.com/CPsRJI8s.png)
+![Imgur](https://i.imgur.com/CPsRJI8.png)
 
 
 ## GaussianBlur_IUEffect
@@ -96,7 +96,7 @@ So you can fade the blur depending on where it is on the screen.
 
 note:  
 edges will be blurred, but less in the center  
-![Imgur](https://i.imgur.com/vZ7FJoNs.png)
+![Imgur](https://i.imgur.com/vZ7FJoN.png)
 
 ## GaussianBlur_WS
 This is for Objects in the WorldSpace.
@@ -109,8 +109,8 @@ these are used to adjust the shinny-ness of the object.
 if this is not working we might want to double check our custom-renderer.
 it's in ***\GaussianBlur_URP\Assets\URP**
 
-![Imgur](https://i.imgur.com/X4vxYgks.png)  
-![Imgur](https://i.imgur.com/isubyX3s.png)
+![Imgur](https://i.imgur.com/X4vxYgk.png)  
+![Imgur](https://i.imgur.com/isubyX3.png)
 
 
 ## Videos
