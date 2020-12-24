@@ -61,7 +61,7 @@ note: this will do several things.
     1. a custom texture can be used (i.e. a render texture or any 2D texture)
 2. Enable Custom rendering for WorldSpaced objects we want blurred.
 
-![Imgur](https://i.imgur.com/B7s0p8Ls.png)
+![Imgur](https://i.imgur.com/B7s0p8L.png)
 
 ## GaussianBlur_IU
 To use the shader on the UI, just use the material.  
