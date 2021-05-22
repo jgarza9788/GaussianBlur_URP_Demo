@@ -36,8 +36,7 @@ Questions, suggestions, help needed?
 Contact me at:  
 Email: jgarza9788@gmail.com  
 Cell: 1-818-251-0647  
-Contact Info: [justingarza.info/contact](http://justingarza.info/contact/)  
-Alternate Website: [jgarza9788 - UnityPortfolio](https://github.com/jgarza9788/UnityPortfolio)  
+Contact Info: [jgarza9788 - UnityPortfolio](https://github.com/jgarza9788/UnityPortfolio)  
 
 
 ## Description Features
@@ -61,7 +60,8 @@ note: this will do several things.
     1. a custom texture can be used (i.e. a render texture or any 2D texture)
 2. Enable Custom rendering for WorldSpaced objects we want blurred.
 
-![Imgur](https://i.imgur.com/B7s0p8L.png)
+![Imgur](https://i.imgur.com/B7s0p8Ls.png)
+[link](https://i.imgur.com/B7s0p8L.png)
 
 ## GaussianBlur_IU
 To use the shader on the UI, just use the material.  
@@ -87,8 +87,8 @@ a color tint to be applied to the UI.
 Saturation:  
 adjusts the saturation (color) of the UI.
 
-![Imgur](https://i.imgur.com/CPsRJI8.png)
-
+![Imgur](https://i.imgur.com/CPsRJI8s.png)
+[link](https://i.imgur.com/CPsRJI8.png)
 
 ## GaussianBlur_IUEffect
 This will use the Source Image.
@@ -96,7 +96,8 @@ So you can fade the blur depending on where it is on the screen.
 
 note:  
 edges will be blurred, but less in the center  
-![Imgur](https://i.imgur.com/vZ7FJoN.png)
+![Imgur](https://i.imgur.com/vZ7FJoNs.png)
+[link](https://i.imgur.com/vZ7FJoN.png)
 
 ## GaussianBlur_WS
 This is for Objects in the WorldSpace.
@@ -109,8 +110,10 @@ these are used to adjust the shinny-ness of the object.
 if this is not working we might want to double check our custom-renderer.
 it's in ***\GaussianBlur_URP\Assets\URP**
 
-![Imgur](https://i.imgur.com/X4vxYgk.png)  
-![Imgur](https://i.imgur.com/isubyX3.png)
+![Imgur](https://i.imgur.com/X4vxYgks.png)  
+[link](https://i.imgur.com/X4vxYgk.png)
+![Imgur](https://i.imgur.com/isubyX3s.png)  
+[link](https://i.imgur.com/isubyX3.png)
 
 
 ## Videos
@@ -131,6 +134,18 @@ please put my name in the credits, or in the special thanks section. :)
 ### it's just GREY!
 Please delete the **Settings** folder from the default URP project.  
 For some reason this causes an error in the URP_Asset i have included in the project
+
+### it's just black!
+any game object that needs to be blurred needs 2 things.  
+
+1. the Layer set to "BlurObject"
+2. the material set to "Gaussian Blur_WS" (using the GaussianBlur_WS shader)
+
+![Imgur](https://i.imgur.com/IJsQJ3Qs.png)  
+[link](https://i.imgur.com/IJsQJ3Q.png)
+
+>note: the URP_Renderer can be edited to be what ever layer you want, but "BlurObject" is the default one
+
 
 ### incorrect importing 
 
