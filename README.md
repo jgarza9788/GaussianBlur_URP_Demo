@@ -131,6 +131,11 @@ please put my name in the credits, or in the special thanks section. :)
 
 ## FAQs
 
+
+### it's PINK!  
+this can happen if your not using URP, or your not using URP settings compatible with the shader.  
+in Assets/URP there are URP files you can use for your settings.
+
 ### it's just GREY!
 Please delete the **Settings** folder from the default URP project.  
 For some reason this causes an error in the URP_Asset i have included in the project
